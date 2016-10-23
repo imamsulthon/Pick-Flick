@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sadboy.pickflick">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".http.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:allowBackup="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Films"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Celebrities"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".http.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".notification.MyAlarmService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".notification.MyReceiver"
+            android:enabled="true" />
+
+        <activity
+            android:name=".activities.MovieDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PersonDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TVDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Bookmarks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Reminders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MoreMovie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MoreTV"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

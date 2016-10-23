@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbar.MainActivity" >
+
+    <item android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary"/>
+
+    <item android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary" />
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/s"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        android:menuCategory="secondary" />
+
+</menu>
