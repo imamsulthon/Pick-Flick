@@ -58,20 +58,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorBackGround"
                 android:focusableInTouchMode="true"
                 android:orientation="vertical">
 
                 <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorBackGround"
                     android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/colorPrimary"
+                        android:background="@color/colorBackGround"
                         android:focusableInTouchMode="true"
                         android:orientation="vertical">
 
@@ -79,7 +79,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:cardBackgroundColor="@color/colorCard"
                             app:cardCornerRadius="2dp"
                             app:cardElevation="5dp">
 
@@ -110,7 +110,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:cardBackgroundColor="@color/colorCard"
                             app:cardCornerRadius="2dp"
                             app:cardElevation="5dp">
 
@@ -149,7 +149,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:cardBackgroundColor="@color/colorCard"
                             app:cardCornerRadius="2dp"
                             app:cardElevation="5dp">
 
@@ -212,7 +212,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:cardBackgroundColor="@color/colorCard"
                             app:cardCornerRadius="2dp"
                             app:cardElevation="5dp">
 
@@ -323,8 +323,6 @@
                                     android:text="Hdodenhof Circleimageview: Android library to support circular ImageView"
                                     android:textColor="#e0e0e0"
                                     android:textSize="15sp" />
-
-
                             </LinearLayout>
 
                         </android.support.v7.widget.CardView>

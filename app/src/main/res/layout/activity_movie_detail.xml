@@ -46,13 +46,13 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorBackGround"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorBackGround"
                 android:focusableInTouchMode="true"
                 android:orientation="vertical">
 
@@ -65,7 +65,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/colorPrimary"
+                        android:background="@color/colorBackGround"
                         android:orientation="vertical">
 
                         <com.daimajia.slider.library.SliderLayout
@@ -110,7 +110,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:cardBackgroundColor="@color/colorBackGround"
                             app:cardCornerRadius="2dp"
                             app:cardElevation="5dp">
 
@@ -318,7 +318,7 @@
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_bookmark_s"
         android:visibility="invisible"
-        app:backgroundTint="#6a1b9a"
+        app:backgroundTint="@color/colorPrimary"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp" />
 
@@ -331,7 +331,7 @@
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_alarm_add"
         android:visibility="invisible"
-        app:backgroundTint="#6a1b9a"
+        app:backgroundTint="@color/colorPrimary"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp" />
 

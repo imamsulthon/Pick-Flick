@@ -56,10 +56,10 @@ public class Reminders extends AppCompatActivity implements ConnectivityReceiver
         viewPager.setOffscreenPageLimit(2);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setTabTextColors(Color.parseColor("#ffffff"), Color.parseColor("#2979ff"));
+        tabLayout.setTabTextColors(Color.parseColor("#ffffff"), Color.parseColor("#00b8d4"));
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.setSelectedTabIndicatorHeight(5);
-        tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#2979ff"));
+        tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#00b8d4"));
 
 
         setDrawer(savedInstanceState);

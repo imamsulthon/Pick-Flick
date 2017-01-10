@@ -12,14 +12,14 @@
         android:layout_margin="10dp"
         android:id="@+id/movie_card"
         android:clickable="true"
-        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardBackgroundColor="@color/colorCard"
         app:cardCornerRadius="2dp"
         app:cardElevation="5dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorCard"
             android:orientation="vertical">
 
             <ImageView
