@@ -500,7 +500,7 @@ public class TV extends AppCompatActivity implements JsonDataSetter, Connectivit
 
 
             View sbView = snackbar.getView();
-            sbView.setBackgroundColor(Color.parseColor("#2979ff"));
+            sbView.setBackgroundColor(Color.parseColor("#00b8d4"));
             snackbar.show();
         }
     }

@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements JsonDataSetter, C
 
         snackbar.setActionTextColor(Color.WHITE);
         View sbView = snackbar.getView();
-        sbView.setBackgroundColor(Color.parseColor("#2979ff"));
+        sbView.setBackgroundColor(Color.parseColor("#00b8d4"));
 
         checkConnection();
 

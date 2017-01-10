@@ -402,7 +402,7 @@ public class TVDetail extends AppCompatActivity implements ConnectivityReceiver.
         } else {
 
             View sbView = snackbar.getView();
-            sbView.setBackgroundColor(Color.parseColor("#2979ff"));
+            sbView.setBackgroundColor(Color.parseColor("#00b8d4"));
             snackbar.show();
         }
     }
