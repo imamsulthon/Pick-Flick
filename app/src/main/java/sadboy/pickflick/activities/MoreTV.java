@@ -201,7 +201,7 @@ public class MoreTV extends AppCompatActivity implements JsonDataSetter, Connect
                         new PrimaryDrawerItem().withName("TV").withIcon(R.drawable.ic_tv_white),
                         new PrimaryDrawerItem().withName("Celebrities").withIcon(R.drawable.ic_people),
                         new DividerDrawerItem(),
-                        new PrimaryDrawerItem().withName("Watchlist").withIcon(R.drawable.ic_bookmark),
+                        new PrimaryDrawerItem().withName("Bookmarks").withIcon(R.drawable.ic_bookmark),
                         new PrimaryDrawerItem().withName("Reminders").withIcon(R.drawable.ic_alarm),
                         new DividerDrawerItem(),
                         new PrimaryDrawerItem().withName("Share").withIcon(R.drawable.ic_share_app),
